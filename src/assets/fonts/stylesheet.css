@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio-Book.woff2') format('woff2'),
+        url('Kabrio-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio-Bold.woff2') format('woff2'),
+        url('Kabrio-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio-Italic.woff2') format('woff2'),
+        url('Kabrio-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio-ExtraBoldItalic.woff2') format('woff2'),
+        url('Kabrio-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio-ExtraBold.woff2') format('woff2'),
+        url('Kabrio-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio-ExtraLightItalic.woff2') format('woff2'),
+        url('Kabrio-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio-ExtraLight.woff2') format('woff2'),
+        url('Kabrio-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio-Heavy.woff2') format('woff2'),
+        url('Kabrio-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio-HeavyItalic.woff2') format('woff2'),
+        url('Kabrio-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio-LightItalic.woff2') format('woff2'),
+        url('Kabrio-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio-Light.woff2') format('woff2'),
+        url('Kabrio-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio-Italic.woff2') format('woff2'),
+        url('Kabrio-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio';
+    src: url('Kabrio.woff2') format('woff2'),
+        url('Kabrio.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-Bold.woff2') format('woff2'),
+        url('KabrioSoft-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-BoldItalic.woff2') format('woff2'),
+        url('KabrioSoft-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-BookItalic.woff2') format('woff2'),
+        url('KabrioSoft-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-Book.woff2') format('woff2'),
+        url('KabrioSoft-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-ExtraBold.woff2') format('woff2'),
+        url('KabrioSoft-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-ExtraBoldItalic.woff2') format('woff2'),
+        url('KabrioSoft-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-ExtraLightItalic.woff2') format('woff2'),
+        url('KabrioSoft-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-ExtraLight.woff2') format('woff2'),
+        url('KabrioSoft-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-HeavyItalic.woff2') format('woff2'),
+        url('KabrioSoft-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-LightItalic.woff2') format('woff2'),
+        url('KabrioSoft-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-Heavy.woff2') format('woff2'),
+        url('KabrioSoft-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-Light.woff2') format('woff2'),
+        url('KabrioSoft-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-Regular.woff2') format('woff2'),
+        url('KabrioSoft-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kabrio Soft';
+    src: url('KabrioSoft-Italic.woff2') format('woff2'),
+        url('KabrioSoft-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
