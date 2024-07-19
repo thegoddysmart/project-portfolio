@@ -1,21 +1,20 @@
 import './App.css';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
+
+import { Routes, Route } from 'react-router-dom';
+import SigninForm from './_auth/forms/SigninForm';
+import SignupForm from './_auth/forms/SignupForm';
+import { Home } from './_root/pages';
 
 function App() {
 
   return (
     <>
-      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<SigninForm />} />
+        <Route path="/signup" element={<SignupForm />} />
+      </Routes>
 
-      <main>
-        <article>
-          <Hero />
-
-          <About />
-        </article>
-      </main>
     </>
   )
 }

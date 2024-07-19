@@ -5,6 +5,8 @@ import GSLlogo from './../assets/gsl-logo.png';
 import { IonIcon } from '@ionic/react';
 import { menuOutline, closeOutline } from 'ionicons/icons';
 
+import { Link } from 'react-router-dom';
+
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isHeaderSticky, setIsHeaderSticky] = useState(false);
@@ -75,7 +77,11 @@ const Header = () => {
                         </li>
                     </ul>
 
-                    <button className="btn btn-secondary">Get Started</button>
+                    <li>
+                        <Link to="/signup">
+                            <button className="btn btn-secondary">Get Started</button>
+                        </Link>
+                    </li>
                 </nav>
             </div>
         </header>
